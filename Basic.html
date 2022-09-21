@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE-edge">
         <meta name="viewport" content="device-width,initial-scale=1.0">
-        <link rel="stylesheet" href="intro.css">
+        <link rel="stylesheet" href="html.css">
         <title>Basic page</title>
     </head>
 
@@ -18,27 +18,13 @@
                 <nav class="main-nav">
                     <img src="LOGO.png" alt="Html" class="logo" width="80" height="80">
                     <ul class="main-menu">
-                        <li><a class="menu" href="intro.html">Intro</a></li>
-                        <li><a class="menu" href="editor.html">Editors</a></li>
-                        <li><a class="menu" href="#">Basic</a></li>
-                        <li><a class="menu" href="#">Editors</a></li>
-                        <li><a class="menu" href="#">Editors</a></li>
-                        <li><a class="menu" href="#">Editors</a></li>
-                        <li><a class="menu" href="#">Editors</a></li>
+                        <span><a class="menu" href="intro.html">Intro</a></span>
+                        <span><a class="menu" href="editor.html">Editors</a></span>
+                        <span><a class="menu" href="#">Basic</a></span>
+                        <span><a class="menu" href="#">About</a></span>
         
                     </ul>
-                    <ul class="right-menu">
-                        <li>
-                            <a href="#">
-                                <i class="fas fa-search"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fas fa-shopping-cart"></i>
-                            </a>
-                        </li>
-                    </ul>
+                    
                 </nav>
             </div>
         
@@ -114,6 +100,14 @@
 
         <br><br>
 
+    </p>
+
+    <button class="button"  type="button" onclick="runButton()">Run</button>
+
+    <p class="output" id="Output" style="display: none;">Output :-<br><br>
+        <span style="font-size: 30px;" ><b>My First Heading</b></span>
+        <br><br>
+        My first paragraph. 
     </p>
 
     <h2 style="font-size: 35px;">The < !DOCTYPE> Declaration</h2>
@@ -307,5 +301,7 @@
     </div>
     
     </div>
+
+    <script src="html.js"></script>
     </body>
 </html>

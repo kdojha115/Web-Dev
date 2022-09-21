@@ -78,3 +78,23 @@
 .bar{
     background-color: rgb(61, 61, 131);
 }
+
+.button{
+    background-color: rgba(0, 128, 0, 0.562); 
+    height: 50px; 
+    width: 100px;
+    border-radius: 5px;
+    
+}
+
+.button:hover{
+    background-color: brown;
+}
+
+.output{
+    background-color: rgba(81, 228, 44, 0.534);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+}
