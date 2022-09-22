@@ -2,7 +2,7 @@
     color: blue;
 }
 
-.afterbar{
+.Body{
     padding-left: 20%;
     padding-right: 25%;
     padding-top: 1px;
@@ -97,4 +97,13 @@
     padding-top: 10px;
     padding-left: 10px;
     margin-right: auto;
+}
+.Heading{
+    font-size: 50px;
+    text-align: center;
+}
+
+.HeadPic{
+    margin: 20px;
+    
 }

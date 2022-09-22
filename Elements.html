@@ -9,17 +9,37 @@
     </head>
 
     <body>
-        <div>
-            <div>
+        <div class="bar">
+        <div class="menu-btn">
+            <i class="fas fa-bars fa-2x"></i>
+        </div>
+        <div class="container">
+    
+            <nav class="main-nav">
+                <img src="LOGO.png" alt="Html" class="logo" width="80" height="80">
+                <ul class="main-menu">
+                    <span><a class="menu" href="intro.html">Intro</a></span>
+                    <span><a class="menu" href="editor.html">Editors</a></span>
+                    <span><a class="menu" href="Basic.html">Basic</a></span>
+                    <span><a class="menu" href="#">Elements</a></span>
+    
+                </ul>
+                
+            </nav>
+        </div>
+        <div class="Body">
+            <div class="Heading" style="font-size:25px;" title="This is topic name";>
                 <h1>HTML Elements</h1>
             </div>
-            <div>
+            <img class="HeadPic" src="Elements.jpeg" width="800" height="400" alt="Example of html code" 
+        title="Example of html code">
+            <div class="Paragraph">
                 <p>An HTML element is defined by a start tag, some content, and an end tag.</p>
             </div>
             <div>
                 <h2>HTML Elements</h2>
             </div>
-            <div>
+            <div class="Paragraph">
                 <p>The HTML element is everything from the start tag to the end tag:</p>
                 <p >
         
@@ -34,7 +54,7 @@
 
                     <br><br>
 
-                    <span>Examples of some HTML elements:</span>
+                    <p class="Paragraph">Examples of some HTML elements:</p>
 
                     <br><br>
 
@@ -58,7 +78,7 @@
 
                     <br><br>
 
-                    <table style="border: 1px solid grey;">
+                    <table class="Table" style="border: 1px solid grey;">
                         <tbody>
                             <tr>
                                 <th>Start tag</th>
@@ -103,7 +123,7 @@
                         </tbody>
                     </table>
 
-                    <div class="note">
+                    <div class="Note">
 
                         <p>
                             <strong>Note: </strong>Some HTML elements have no content (like the 
@@ -117,8 +137,399 @@
                     
                     </div>
 
+
                 </p>
             </div>
+            <h2>Nested HTML Elements</h2>
+            <div class="Paragraph">
+                <span>HTML elements can be nested (this means that elements can contain other elements.<br><br>
+
+                    All HTML documents consist of nested HTML elements.<br><br>
+                    
+                    The following example contains four HTML elements (
+                        <span style="color: red;"><</span>
+                        <span style="color: brown;">html</span>
+                        <span style="color: red;">></span>,
+                        <span style="color: red;"><</span>
+                        <span style="color: brown;">body</span>
+                        <span style="color: red;">></span>, 
+                        <span style="color: red;"><</span>
+                        <span style="color: brown;">h1</span>
+                        <span style="color: red;">></span>and 
+                        <span style="color: red;"><</span>
+                        <span style="color: brown;">p</span>
+                        <span style="color: red;">></span>):<br><br>
+                </span>
+            </div>
+            <h3>Example</h3>
+            <div class="Example">
+                <br>
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">!DOCTYPE html</span>
+                <span style="color: blue;">></span>
+
+                <br>
+
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">html</span>
+                <span style="color: blue;">></span>
+
+                <br>
+
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">body</span>
+                <span style="color: blue;">></span>
+
+                <br><br>
+
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">h1</span>
+                <span style="color: blue;">></span>
+                <span>My First Heading</span>
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">/h1</span>
+                <span style="color: blue;">></span>
+
+                <br><br>
+
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">p</span>
+                <span style="color: blue;">></span>
+                <span>My first paragraph.</span>
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">/p</span>
+                <span style="color: blue;">></span>
+
+                <br><br>
+
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">/body</span>
+                <span style="color: blue;">></span>
+
+                <br>
+
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">/html</span>
+                <span style="color: blue;">></span>
+
+                <br><br>
+            </div>
+
+            <div class="Button">
+                <button type="button" onclick="runButton()">Run</button>
+            </div>
+
+            <h3>Example Explained</h3>
+            <div class="Paragraph">
+                <span>
+                    The 
+                    <span style="color: brown;"><</span>
+                    <span style="color: brown;">html</span>
+                    <span style="color: brown;">></span>
+                     element is the root element and it defines the whole HTML document.<br><br>
+
+                    It has a start tag
+                    <span style="color: brown;"><</span>
+                    <span style="color: brown;">html</span>
+                    <span style="color: brown;">></span>
+                     and an end tag 
+                    <span style="color: brown;"><</span>
+                    <span style="color: brown;">/html</span>
+                    <span style="color: brown;">></span>.<br><br>
+
+                    Then, inside the 
+                    <span style="color: brown;"><</span>
+                    <span style="color: brown;">html</span>
+                    <span style="color: brown;">></span>
+                    element there is a 
+                    <span style="color: brown;"><</span>
+                    <span style="color: brown;">body</span>
+                    <span style="color: brown;">></span>
+                    element:
+                    <br><br><br>
+                </span>
+            </div>
+
+            <div class="Example">
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">body</span>
+                <span style="color: blue;">></span>
+
+                <br><br>
+
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">h1</span>
+                <span style="color: blue;">></span>
+                <span>My First Heading</span>
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">/h1</span>
+                <span style="color: blue;">></span>
+
+                <br>
+
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">p</span>
+                <span style="color: blue;">></span>
+                <span>My first paragraph.</span>
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">/p</span>
+                <span style="color: blue;">></span>
+
+                <br><br>
+
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">/body</span>
+                <span style="color: blue;">></span>
+
+                <br><br><br>
+            </div>
+
+            <div class="Paragraph">
+                The 
+                <span style="color: brown;"><</span>
+                <span style="color: brown;">body</span>
+                <span style="color: brown;">></span>
+                 element defines the document's body.<br><br>
+
+                It has a start tag 
+                <span style="color: brown;"><</span>
+                <span style="color: brown;">body</span>
+                <span style="color: brown;">></span>
+                 and an end tag 
+                 <span style="color: brown;"><</span>
+                <span style="color: brown;">/body</span>
+                <span style="color: brown;">></span>.<br><br>
+                    
+                Then, inside the 
+                <span style="color: brown;"><</span>
+                <span style="color: brown;">body</span>
+                <span style="color: brown;">></span>
+                 element there are two other elements: 
+                 <span style="color: brown;"><</span>
+                <span style="color: brown;">h1</span>
+                <span style="color: brown;">></span>
+                 and 
+                 <span style="color: brown;"><</span>
+                <span style="color: brown;">p</span>
+                <span style="color: brown;">></span>
+                :<br><br>
+                      
+            </div>
+
+            <div class="Example">
+                <br><br>
+
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">h1</span>
+                <span style="color: blue;">></span>
+                <span>My First Heading</span>
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">/h1</span>
+                <span style="color: blue;">></span>
+
+                <br>
+
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">p</span>
+                <span style="color: blue;">></span>
+                <span>My first paragraph.</span>
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">/p</span>
+                <span style="color: blue;">></span>
+
+                <br><br>
+            </div>
+
+            <div class="Paragraph">
+                <br><br>
+                The 
+                <span style="color: brown;"><</span>
+                <span style="color: brown;">h1</span>
+                <span style="color: brown;">></span>
+                 element defines a heading.<br><br>
+
+                It has a start tag 
+                <span style="color: brown;"><</span>
+                <span style="color: brown;">h1</span>
+                <span style="color: brown;">></span>
+                 and an end tag
+                 <span style="color: brown;"><</span>
+                <span style="color: brown;">/h1</span>
+                <span style="color: brown;">></span>:
+                <br><br>
+            </div>
+
+            <div class="Example">
+                <br><br>
+
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">h1</span>
+                <span style="color: blue;">></span>
+                <span>My First Heading</span>
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">/h1</span>
+                <span style="color: blue;">></span>
+
+                <br><br>
+            </div>
+
+            <div class="Paragraph">
+                <br><br>
+                The 
+                <span style="color: brown;"><</span>
+                <span style="color: brown;">p</span>
+                <span style="color: brown;">></span>
+                 element defines a paragraph.
+                 <br><br>
+
+                It has a start tag 
+                <span style="color: brown;"><</span>
+                <span style="color: brown;">p</span>
+                <span style="color: brown;">></span>
+                 and an end tag 
+                 <span style="color: brown;"><</span>
+                <span style="color: brown;">/p</span>
+                <span style="color: brown;">></span>:
+                <br><br>
+            </div>
+
+            <div class="Example">
+                <br><br>
+
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">p</span>
+                <span style="color: blue;">></span>
+                <span>My first paragraph.</span>
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">/p</span>
+                <span style="color: blue;">></span>
+
+                <br><br>
+            </div>
+
+            <h2>Never Skip the End Tag</h2>
+            <div class="Paragraph">
+                <p >Some HTML elements will display correctly, even if you forget the end tag:</p>
+            </div>
+
+            <h3>Example</h3>
+            <div class="Example">
+                <br>
+
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">html</span>
+                <span style="color: blue;">></span>
+
+                <br>
+
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">body</span>
+                <span style="color: blue;">></span>
+
+                <br><br>
+
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">h1</span>
+                <span style="color: blue;">></span>
+                <span>My First Heading</span>
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">/h1</span>
+                <span style="color: blue;">></span>
+
+                <br><br>
+
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">p</span>
+                <span style="color: blue;">></span>
+                <span>My first paragraph.</span>
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">/p</span>
+                <span style="color: blue;">></span>
+
+                <br><br>
+
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">/body</span>
+                <span style="color: blue;">></span>
+
+                <br>
+
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">/html</span>
+                <span style="color: blue;">></span>
+
+                <br><br>
+            </div>
+
+            <div class="Button">
+                <button type="button" onclick="runButton()">Run</button>
+            </div>
+
+            <div class="Paragraph">
+                <br><br>
+                <p><b>However, never rely on this! Unexpected results and errors may occur if you forget the end tag!</b></p>
+                <br><br>
+            </div>
+
+
+            <h2>Empty HTML Elements </h2>
+
+            <div class="Paragraph">
+                <br>
+                HTML elements with no content are called empty elements.<br><br>
+
+                The
+                <span style="color: brown;"><</span>
+                <span style="color: brown;">br</span>
+                <span style="color: brown;">></span>
+                 tag defines a line break, and is an empty element without a closing tag:<br><br>
+            </div>
+
+            <h3>Example</h3>
+
+            <div class="Example">
+                
+
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">p</span>
+                <span style="color: blue;">></span>
+                <span>This is a 
+                    <span style="color: blue;"><</span>
+                    <span style="color: brown;">br</span>
+                    <span style="color: blue;">></span>
+                     paragraph with a line break.
+                </span>
+                <span style="color: blue;"><</span>
+                <span style="color: brown;">/p</span>
+                <span style="color: blue;">></span>
+
+                <br><br>
+            </div>
+
+            <div class="Button">
+                <button type="button" onclick="runButton()">Run</button>
+            </div>
+            <br><br>
+
+            <h2>HTML is Not Case Sensitive</h2>
+
+            <div class="Paragraph">
+                HTML tags are not case sensitive: 
+                <span style="color: brown;"><</span>
+                <span style="color: brown;">P</span>
+                <span style="color: brown;">></span> 
+                means the same as 
+                <span style="color: brown;"><</span>
+                <span style="color: brown;">p</span>
+                <span style="color: brown;">></span>.
+                <br><br>
+
+                The HTML standard does not require lowercase tags. <br><br>
+            </div>
+
+
+
+        </div>
         </div>
     </body>
 </html>
